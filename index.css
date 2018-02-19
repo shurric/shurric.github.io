@@ -1,0 +1,38 @@
+body {
+  background-color: #263238;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+#canvas {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+.center {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.mc-out {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.mc {
+  z-index: 1;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  background-color: #455A64;
+  border-radius: 5px;
+  text-align: center;
+  color: #ECEFF1;
+}
+a {
+  color: #ECEFF1;
+  text-decoration: none;
+  border-bottom: dotted 1px #90A4AE;
+}
+a:hover {
+  color: #CFD8DC;
+}
